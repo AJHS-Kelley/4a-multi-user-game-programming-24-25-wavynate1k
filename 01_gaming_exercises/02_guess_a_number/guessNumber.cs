@@ -5,6 +5,11 @@ class GuessNumber {
       int maxGuess = 7;
 
       // Generate the secret number here.
+      Random rnd = new Random(); // Create an object named 'rnd' that isa copy of the Random() class.
+      // int secretNumber = rnd.Next(100); // Generate from 0 to ?
+      int secretNumber = rnd.Next(25, 1000); // Generate from ? to ?
+      Console.WriteLine(secretNumber);
+      
       // while loop
         // Allow the user to guess the number.
         // Compare the guess to the secret number.
