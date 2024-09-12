@@ -48,6 +48,18 @@ class Strings {
         // where is it in my string?
         Console.WriteLine(greeting.IndexOf("y"));
 
+        // Finding parts of a string
+        string fullName = "Billy Mays";
+
+        // What letter
+        int lastInitial = fullName.IndexOf("M");
+
+        // Find the substring.
+        string lastName = fullName.Substring(lastInitial);
+
+        // Print it.
+        Console.WriteLine(lastName);
+
 
 
     }
