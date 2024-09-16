@@ -25,17 +25,17 @@ class GuessNumber {
           }
           else if (guess > secretNumber)
           {
-            Console.WriteLine("Your guess is too high.\n")
+            Console.WriteLine("Your guess is too high.\n");
           } 
           else
           {
-            Console.WriteLine("You guessed correctley.\n")
+            Console.WriteLine("You guessed correctley.\n");
             break;
           }
 
           if (numGuess >= maxGuess)
           {
-              Console.WriteLine("You have lost the game.\n Your grandparents are dissapointed in you.")
+              Console.WriteLine("You have lost the game.\n Your grandparents are dissapointed in you.");
           }
       }
         

@@ -4,7 +4,7 @@ class Template{
 
  int playerLives = 3;
 
- Console.WriteLine("What is your score?")
+ Console.WriteLine("What is your score?");
  string input = Console.ReadLine();
  int playerScore;
 
@@ -19,7 +19,7 @@ else if (playerScore >= 10001 && playerScore < 100000)
 else (playerScore >= 100000)
 {
     playerLives += 2;
-    Console.WriteLine(playerLives)
+    Console.WriteLine(playerLives);
 }
 
     }
