@@ -41,6 +41,10 @@ class Template {
                 Console.WriteLine("You lost the round! CPU chose scissors!");
                 cpuScore++;
             }
+            else if (playerChoice != "rock" && playerChoice != "paper" && playerChoice != "scisscors")
+            {
+                Console.WriteLine("You must choose rock, paper or scisscors!")
+            }
             else {
                 Console.WriteLine("You picked the same choice as CPU!");
             }
