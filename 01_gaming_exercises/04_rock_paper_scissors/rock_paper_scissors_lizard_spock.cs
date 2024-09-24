@@ -25,9 +25,17 @@ class Template {
                 Console.WriteLine("You beat the CPU! It picked lizard.");
                 playerScore++;
             }
+            else if (playerChoice == "lizard" && cpuChoice == 1) {
+                Console.WriteLine("You lost the round! CPU chose rock");
+                cpuScore++;
+            }
             else if (playerChoice == "paper" && cpuChoice == 1) {
                 Console.WriteLine("You beat the CPU! It picked rock.");
                 playerScore++;
+            }
+            else if (playerChoice == "spock" && cpuChoice == 2) {
+                Console.WriteLine("You lost the round! CPU chose paper.");
+                cpuScore++;
             }
             else if (playerChoice == "paper" && cpuChoice == 5) {
                 Console.WriteLine("You beat the CPU! It picked spock.");
@@ -58,16 +66,16 @@ class Template {
                 playerScore++;
             }
             else if (playerChoice == "lizard" && cpuChoice == 5) {
-                Console.WriteLine("You lost the round! CPU chose spock!");
-                cpuScore++;
+                Console.WriteLine("You beat the CPU! CPU chose spock!");
+                playerScore++;
             }
             else if (playerChoice == "spock" && cpuChoice == 3) {
-                Console.WriteLine("You lost the round! CPU chose scissors!");
-                cpuScore++;
+                Console.WriteLine("You beat the CPU! CPU chose scissors");
+                playerScore++;
             }
             else if (playerChoice == "spock" && cpuChoice == 1) {
-                Console.WriteLine("You lost the round! CPU chose rock!");
-                cpuScore++;
+                Console.WriteLine("You beat the CPU! CPU chose paper!");
+                playerScore++;
             }
 
             else if (playerChoice != "rock" && playerChoice != "paper" && playerChoice != "scissors")
