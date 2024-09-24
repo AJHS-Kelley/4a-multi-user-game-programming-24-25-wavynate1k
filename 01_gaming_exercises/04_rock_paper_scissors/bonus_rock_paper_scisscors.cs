@@ -12,8 +12,6 @@ class Template {
             Console.WriteLine("Is your pick rock, paper, or scissors?");
             string playerChoice = Console.ReadLine();
 
-
-
             if (playerChoice == "scissors") {
                 Console.WriteLine("You lost the round! CPU chose rock!");
                 cpuScore++;
