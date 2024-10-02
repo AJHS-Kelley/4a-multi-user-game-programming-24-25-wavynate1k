@@ -46,18 +46,19 @@ class RPS {
                 Console.WriteLine("You lost the round! CPU chose scissors!");
                 cpuScore++;
             }
-            else if (playerChoice == 1 && cpuChoice == 1) {
-                Console.WriteLine("You drawed with the CPU!");
+            else if (playerChoice == 1 && cpuChoice == 1) { 
+                Console.WriteLine("You drawed with the CPU!"); 
                 numDraws++;
+
             }
             else if (playerChoice == 2 && cpuChoice == 2) {
-                Console.WriteLine("You drawed with the CPU!");
+                Console.WriteLine("You drawed with the CPU!"); 
                 numDraws++;
             }
-            else if (playerChoice == 3 && cpuChoice == 3) {
+            else if (playerChoice == 3 && cpuChoice == 3) { 
                 Console.WriteLine("You drawed with the CPU!");
                 numDraws++;
-            }
+            } 
             else {
                 Console.WriteLine("You picked the same choice as CPU!");
             }

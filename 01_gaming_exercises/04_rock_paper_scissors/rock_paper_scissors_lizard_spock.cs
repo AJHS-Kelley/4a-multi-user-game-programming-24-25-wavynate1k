@@ -78,7 +78,7 @@ class Template {
                 playerScore++;
             }
 
-            else if (playerChoice != "rock" && playerChoice != "paper" && playerChoice != "scissors")
+            else if (playerChoice != "rock" && playerChoice != "paper" && playerChoice != "scissors" && playerChoice != "lizard" && playerChoice != "spock")
             {
                 Console.WriteLine("You must choose rock, paper or scisscors!");
             }
