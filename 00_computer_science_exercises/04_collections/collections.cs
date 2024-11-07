@@ -118,7 +118,43 @@ class Template{
             newList.Remove(-10);
             Console.WriteLine(newList[0]);     
         
-
+            Deleting based on index number.
+            .RemoveAt(value) --> deletes the item at the specified index
             */
+            newList.RemoveAt(4);
+
+            // Delete the First Item
+            newList.RemoveAt(0);
+
+            // Delete the Last Item
+            newList.RemoveAt(newList.Length - 1);
+
+            // Remove an entire range of elements.
+            // .RemoveRange(value0, value1)
+            newList.RemoveRange(3, 8)
+
+            // Shortcut to Delete from one item through the end of list.
+            newList.RemoveRange(4, newList.Length - 1);
+
+            // Does the ArrayList contain a certain value.
+            // .Contains(value) returns true if the list has that value, false otherwise.
+            new playerInventory = new ArrayList()
+            {
+                "Pickaxe", "Sword", "Torch", "Potato", "Axe", "Bazooka", "Notebook"
+            }
+
+            Console.WriteLine(playerInventory.Contains("Potato"));            
+            Console.WriteLine(playerInventory.Contains("Coal"));
+
+            if (playerInventory.Contains("Blue Key"))
+            {
+                // then.
+            }
+
+
+
+
+
+
         } // DO NOT DELETE EVER, SHOULD BE 3 SPACES FROM LEFT
     } // DO NOT DELETE EVER, ALWAYS TOUCHING LEFT MARGIN
