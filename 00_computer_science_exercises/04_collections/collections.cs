@@ -138,7 +138,7 @@ class Template{
 
             // Does the ArrayList contain a certain value.
             // .Contains(value) returns true if the list has that value, false otherwise.
-            new playerInventory = new ArrayList()
+            var playerInventory = new ArrayList()
             {
                 "Pickaxe", "Sword", "Torch", "Potato", "Axe", "Bazooka", "Notebook"
             }
