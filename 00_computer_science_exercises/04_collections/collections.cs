@@ -16,9 +16,9 @@ class Template{
       */
 
       // DECLARING AND DEFINING AN ARRAY
-      string[] breakFastFoods = {"Bacon", "Eggs", "Cold Pizza", "Capn' Crunch", "Gator Tail"};
-      int[] testScores = {0, 25, 15, 75, 99};
-      double[] GPA = {0.27D, 1.99D, 4.02D, 0.0D, 3.25D};      
+    //   string[] breakFastFoods = {"Bacon", "Eggs", "Cold Pizza", "Capn' Crunch", "Gator Tail"};
+    //   int[] testScores = {0, 25, 15, 75, 99};
+    //   double[] GPA = {0.27D, 1.99D, 4.02D, 0.0D, 3.25D};      
 
         //   Print Array Contents -- All Elements on Single Line
         //   Console.WriteLine(The elements of each array are: \n);  
@@ -83,6 +83,42 @@ class Template{
         Console.WriteLine("The MINIMUM value for intArr is: " + intArr.Min()); 
         Console.WriteLine("The MAXIMUM value for intArr is: " + intArr.Max()); 
         Console.WriteLine("The SUM value for intArr is: " + intArr.Sum()); 
+*/
 
+
+        // ArrayList --> Basically an array you can add/remove elements from.
+        /* var exampleArrList = new ArrayList(); // Create an new ArrayList.
+        // Adding elements to an ArrayList use .Add()
+        // .Add puts the item at the end of the list
+        exampleArrList.Add(5);
+        exampleArrList.Add("Shrek 5: The Search for Donkey");
+        exampleArrList.Add(false);
+        exampleArrList.Add(1.25D);
+
+        // Create ArrayList with Values
+        var exampleArrList2 new ArrayList()
+                {
+                    -10, "Paul", "Blue", true, 25.25D, 196000, 0.0D
+                };
+
+        Console.WriteLine(exampleArrList[2]);
+        Console.WriteLine(exampleArrList2[5]);   
+            */
+        // Inserting to a specific position in the ArrayList
+        // Use .Insert(index, value)
+        // exampleArrList.Insert(3, "Ogres are like onions. \n");
+        // exampleArrList.Insert(0, -99);
+
+        // . Remove (value) removes the FIRST OCCURENCE of the item from the ArrayList.
+        /* var newList = new ArrayList()
+            {
+                -10, 10, 15, -25, -10, -25, 33, -25, 40
+            };
+            Console.WriteLine(newList[0]);
+            newList.Remove(-10);
+            Console.WriteLine(newList[0]);     
+        
+
+            */
         } // DO NOT DELETE EVER, SHOULD BE 3 SPACES FROM LEFT
     } // DO NOT DELETE EVER, ALWAYS TOUCHING LEFT MARGIN
