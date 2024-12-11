@@ -1,22 +1,29 @@
 using System;
 class Template{
-    static void Main() {
+    private static void Main() {
 
-    int age = 56;
-    Player codeMonkeyPlayer = new Player();
-    Player ironManPlayer = new Player();
+    Player codeMonkeyPlayer = new Player("Code Monkey");
+    codeMonkeyPlayer.SayHello();
+    Player ironManPlayer = new Player("Iron Man");
+    ironManPlayer.SayHello();
 
     Console.WriteLine(codeMonkeyPlayer.GetHashCode() + " " + ironManPlayer.GetHashCode());
 }
 
-class Player {
+private class Player {
 
-    public Player() {
-        Console.WriteLine("Creating player!");
+    public string name = "-";
+
+    public Player(string name) {
+        this.name = name;
+        Console.WriteLine($"Creating player {name}!");
+    }
+    
+    public static void SayHello(){
+        Console.WriteLine($"Hello {name}!");
     }
 
    
     } // DO NOT DELETE EVER, SHOULD BE 3 SPACES FROM LEFT
 } // DO NOT DELETE EVER, ALWAYS TOUCHING LEFT MARGIN
 
-z
